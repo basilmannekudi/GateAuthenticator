@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:scrollbars="vertical"
+    android:id="@+id/token_item_bg"
+    app:cardCornerRadius="10dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <RelativeLayout
+
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:id="@+id/verified_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@mipmap/ic_launcher" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="_stats_"
+                android:textSize="12sp"
+                android:layout_below="@id/verified_image"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/stats"/>
+
+
+        </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:layout_marginBottom="5dp"
+
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Entry"
+                android:textSize="18dp"
+                android:layout_marginEnd="10dp"
+                android:id="@+id/entry_exit"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="on"
+                android:textSize="18dp"
+                android:layout_marginEnd="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0/00/0000"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:id="@+id/date"
+                android:layout_marginEnd="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="at"
+                android:textSize="18dp"
+                android:layout_marginEnd="10dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0:00"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:id="@+id/time_time"
+                />
+
+        </LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verified By :"
+        android:textSize="18dp"
+
+        android:id="@+id/veri_notveri"
+        android:layout_marginEnd="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not Verified"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:id="@+id/verified_by"
+        />
+
+
+</LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Token id :"
+                android:textSize="18dp"
+                android:paddingBottom="10dp"
+                android:layout_marginEnd="10dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="_id:0:0:0"
+                android:textSize="12dp"
+                android:textStyle="italic"
+                android:id="@+id/token_id"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

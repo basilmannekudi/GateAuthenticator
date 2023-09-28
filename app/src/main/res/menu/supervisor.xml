@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sup_all"
+        android:title="@string/all"
+        android:icon="@drawable/ic_baseline_featured_play_list_24"
+        />
+    <item
+        android:id="@+id/sup_approv"
+        android:title="@string/menu_verified"
+        android:icon="@drawable/ic_baseline_verified_24"
+        />
+    <item
+        android:id="@+id/sup_users"
+        android:title="@string/menu_users"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        />
+    <item
+        android:id="@+id/sup_settings"
+        android:title="@string/menu_settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        />
+
+</menu>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp"
+    android:backgroundTint="?attr/colorOnSecondary"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ni">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginStart="20dp"
+        android:layout_centerVertical="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/profile_image"
+        android:src="@drawable/ic_baseline_account_circle_24"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_toRightOf="@id/profile_image"
+    android:layout_toEndOf="@id/profile_image"
+    android:layout_marginLeft="20dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="username"
+        android:id="@+id/username"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_class_"
+        android:id="@+id/user_class"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(USER ID)"
+        android:id="@+id/user_id"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"/>
+
+</LinearLayout>
+</RelativeLayout>
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingTop="5dp"
+       android:layout_below="@+id/ni">
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="2dp"
+           android:background="#c0c0c0"/>
+   </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragments.SupUserFragment">
+
+    <RelativeLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/black"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/icon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Gate Authenticator"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:layout_centerVertical="true"
+
+                android:fontFamily="@font/play_reg"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="@color/cardview_dark_background"
+    android:layout_margin="5dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developed By : Team 17"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ajith George Louis"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Basil Benny"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Joe P B"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* Developed as minor mini project"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/cardview_dark_background"
+        android:layout_margin="5dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guided By : "
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="italic"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mrs.Sona Baby"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asst.Professor (CSE Dept.)"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/cardview_dark_background"
+        android:layout_margin="5dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* This Project was created inside of
+VJCET, Demo Data Contains of Data From the Organisation."
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All Rights Reserved To the Team Members"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+<Button
+    android:layout_marginLeft="80dp"
+    android:layout_marginRight="80dp"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/logout"
+    android:text="Log Out"
+    android:textAllCaps="false"
+
+    />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Version V1.0 © 2023"
+            android:textColor="@color/grey"
+            android:textStyle="italic"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
