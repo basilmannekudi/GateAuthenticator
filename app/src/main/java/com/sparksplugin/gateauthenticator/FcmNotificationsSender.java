@@ -29,7 +29,7 @@ public class FcmNotificationsSender  {
 
     private RequestQueue requestQueue;
     private final String postUrl = "https://fcm.googleapis.com/fcm/send";
-    private final String fcmServerKey ="AAAAC65lKdk:APA91bGJJS7dzzWXhMZqHtn_KqhxvN9Hw1yXuMZGGJ9XQowpcOE9e80MUEbVJ7Yi0wgS17JvrchkLoIWv14kXYDyarvUgoS88QAMBYZu1iZe8T7mPp-KAKLkgsZsWq2cbU5bbQaXVU8w";
+    private final String fcmServerKey ="YOUR-FCM-KEY";
 
     public FcmNotificationsSender(String userFcmToken, String title, String body, Context mContext, Activity mActivity, String id,String send) {
         this.userFcmToken = userFcmToken;
